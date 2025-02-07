@@ -1,0 +1,20 @@
+
+.item, img{
+  height: 70% !important;
+  width:  100% !important;
+  background-size: cover;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+
+.buttones{
+  color: black;
+}
+
+@media (max-width:770px) {
+  .carousel-inner{
+    height: auto;
+  }
+}

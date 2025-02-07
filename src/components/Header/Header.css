@@ -1,0 +1,147 @@
+.searchbutton{
+  border: none;
+  color: #4c595d;
+}
+
+.searchfield{
+  border: none;
+  font-family: 'BhuTuka Expanded One', cursive;
+}
+
+.logo img{
+  max-width: 250px;
+}
+
+
+.headmainfresh{
+  color: grey;
+  padding-left: 10px;
+}
+
+
+.classfreshbutton{
+  color: grey;
+  background-color: white;
+  /* border-block-color: grey; */
+  border: 2px solid grey;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+
+.classfreshbutton:hover{
+  color: white;
+  background-color: grey;
+  
+}
+
+
+
+
+.iconmenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+.secendary{
+  margin-right: 6px;
+}
+
+.iconmenuname{
+ margin-right: 7px;
+ color: #4c595d;
+}
+
+.accountlogo{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.logo img{
+  max-width: 250px;
+}
+
+.navbar-toggler{
+  color: forestgreen;
+
+}
+
+.navbar-toggler-icon{
+  color: aqua;
+}
+
+/* drawer start  */
+
+.drawer__nav{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.drawer__nav li{
+  list-style: none;
+  }
+ 
+ .drawer__nav-link{
+     font-size: 1rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     position: relative;
+     color: #666;
+     color: #6669;
+     padding: 20px;
+     z-index: 7;
+ 
+ }
+ 
+ .drawer__nav-link:hover {
+     color: #666;
+ }
+
+
+/* drawer end  */
+
+/* responsive  */
+
+@media (max-width:880px) {
+  .drawer__nav-link{
+      font-size:10px ;
+  }
+}
+
+
+@media (max-width:700px) {
+  .drawer__nav{
+      display: grid;
+  }
+}
+
+@media (max-width:990px) {
+  .logo img{
+      margin: auto; 
+    }
+}
+
+
+.accountlogo{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.logo img{
+  max-width: 250px;
+}
+
+.navbar-toggler{
+  color: forestgreen;
+
+}
+
+.navbar-toggler-icon{
+  color: aqua;
+}
